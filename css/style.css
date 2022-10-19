@@ -40,7 +40,7 @@ li > a{
         border-bottom-width: 5px;
 }
 
-.nav-item :hover, a:active{
+.nav-item :hover{
                 color: #2fd756 !important;
                 border-bottom: #2fd756 solid;
                 border-bottom-width: 5px;
