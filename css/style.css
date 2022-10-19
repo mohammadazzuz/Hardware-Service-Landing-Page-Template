@@ -1,0 +1,58 @@
+/** my font **/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+*{
+    font-family: 'archivo';
+}
+.Primary-font{
+    font-family: 'archivo';
+}
+
+.Primary-color{
+    color: #2fd756;
+    
+}
+
+.btn-color-service{
+    color: #383838;
+}
+
+.text-bold{
+    font-weight: 300;
+}
+
+/** ___________________________________________________________ **/
+
+
+    /**navbar**/
+
+li > a{
+    color: #313131 !important;
+    padding:  20px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0px !important;
+    border: white 5px;
+}
+
+.active{
+        color: #2fd756 !important;
+        border-bottom: #2fd756 solid;
+        border-bottom-width: 5px;
+}
+
+.nav-item :hover, a:active{
+                color: #2fd756 !important;
+                border-bottom: #2fd756 solid;
+                border-bottom-width: 5px;
+                
+}
+
+    /**end-navbar**/
+
+
+
+
+
+
+/** ___________________________________________________________ **/
+
