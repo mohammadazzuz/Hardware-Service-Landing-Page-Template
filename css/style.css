@@ -56,3 +56,39 @@ li > a{
 
 /** ___________________________________________________________ **/
 
+
+.space-lg{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+
+
+.card{
+    border-color: #fff;
+}
+
+.bg-custom{
+    background-image: url('/img/gsm2-slider-bg.png');
+    background-repeat: no-repeat;
+    background-image: image();
+}
+
+.green-button{
+    background-color:rgb(55, 202, 89);
+    height: 42px;
+    width: 186px;
+    color: white;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 1px 30px;
+    border-radius: 25px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-width: 0px;
+}
