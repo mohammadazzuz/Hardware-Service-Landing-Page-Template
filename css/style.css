@@ -56,7 +56,7 @@ li > a{
 
 /** ___________________________________________________________ **/
 
-
+/**slider-section**/
 .space-lg{
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
@@ -92,3 +92,41 @@ li > a{
     visibility: visible;
     border-width: 0px;
 }
+
+.green-button:hover{
+    background-color: white;
+    border: 1px solid rgb(55, 202, 89);
+    border-radius: 25px;
+    color: rgb(55, 202, 89);
+    
+}
+
+/**end-section**/
+
+
+.btn-about{
+    background-color:#f7f7f7;
+    height: 42px;
+    width: 186px;
+    color: #313131;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 15px;
+    padding: 1px 30px;
+    border-radius: 25px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-top-color: rgb(229, 229, 229);
+    border-right-color: rgb(229, 229, 229);
+    border-bottom-color: rgb(229, 229, 229);
+    border-left-color: rgb(229, 229, 229);
+}
+
+
