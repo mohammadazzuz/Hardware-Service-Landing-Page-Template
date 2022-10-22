@@ -169,10 +169,9 @@ h6{
 /**end-section**/
 
 .cs-bg{
-   
-
-    background-image: url('/img/gsm2-cta-bg-pattern.png');
+    background-image: linear-gradient(to right top, #000000, #151515, #242424, #323232, #424242); 
 }
+
 
 
 .green-button2{
