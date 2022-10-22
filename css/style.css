@@ -193,6 +193,7 @@ h6{
     visibility: visible;
     border-width: 0px;
 }
+/**end-section**/
 
 /** avatar **/
 
@@ -229,3 +230,43 @@ h6{
 li{
     padding-bottom: 10px;
 }
+
+
+/**footer**/
+
+.bg-footer{
+    background-image: url('/img/gsm2-footer-bg.png');
+    background-position:right;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+
+.gg-facebook{
+    color:#afafaf ;
+}
+
+.gg-twitter{
+    color:#afafaf ;
+}
+
+.gg-instagram{
+    color:#afafaf ;
+}
+
+
+.gg-facebook:hover{
+    color:#2fd756;
+}
+.gg-twitter:hover{
+    color:#2fd756;
+}
+.gg-instagram:hover{
+    color:#2fd756;
+}
+
+
+
+
