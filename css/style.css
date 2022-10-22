@@ -194,3 +194,38 @@ h6{
     border-width: 0px;
 }
 
+/** avatar **/
+
+.media{
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar:first-child{
+    margin-right: 1.5rem;
+}
+
+.avatar.avatar-lg{
+    width: 80px;
+    height: 80px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.img-verticle{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.media-body {
+    flex: 1;
+}
+
+
+li{
+    padding-bottom: 10px;
+}
