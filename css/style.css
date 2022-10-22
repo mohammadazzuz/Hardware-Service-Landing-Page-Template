@@ -105,7 +105,7 @@ li > a{
 
 
 .btn-about{
-    background-color:#f7f7f7;
+    background-color:lightgrey;
     height: 42px;
     width: 186px;
     color: #313131;
@@ -132,7 +132,7 @@ li > a{
 .btn-about:hover{
     color: #313131;
     background-color: #edebeb;
-    border-color: #edebeb;
+    border-color: gray;
 }
 
 /**end-section**/
