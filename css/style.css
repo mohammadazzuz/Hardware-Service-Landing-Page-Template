@@ -122,11 +122,17 @@ li > a{
     visibility: visible;
     border-width: 1px;
     border-style: solid;
-    border-color: #e5e5e5;
+    border-color: #dadada;
     border-top-color: rgb(229, 229, 229);
     border-right-color: rgb(229, 229, 229);
     border-bottom-color: rgb(229, 229, 229);
     border-left-color: rgb(229, 229, 229);
+}
+
+.btn-about:hover{
+    color: #313131;
+    background-color: #edebeb;
+    border-color: #edebeb;
 }
 
 /**end-section**/
@@ -159,4 +165,32 @@ h6{
         border-bottom-right-radius: 0%;
 }
 
+
+/**end-section**/
+
+.cs-bg{
+    height: 430px;
+
+    background-image: url('/img/gsm2-cta-bg-pattern.png');
+}
+
+
+.green-button2{
+    background-color:rgb(55, 202, 89);
+    height: 42px;
+    width: 186px;
+    color: white;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 1px 30px;
+    border-radius: 25px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-width: 0px;
+}
 
