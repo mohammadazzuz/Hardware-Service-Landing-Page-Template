@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be GSM Service</BeGSM-Service></title>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,9 +14,10 @@
     <link href='https://css.gg/twitter.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/magic.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <!-- navbar -->
@@ -61,7 +63,7 @@
     <section class="space-lg">
         <div class="container">
             <div class="row align-items-start ">
-                <div class="col-lg-6 mt-5 pt-4 bg-custom " >
+                <div class="col-lg-6 mt-5 pt-4 bg-custom animate__animated animate__lightSpeedInLeft">
                     
                         <h1 style="font-size: 65px;" class="mb-4">
                         <span class="Primary-color">We repair</span>
@@ -96,7 +98,7 @@
                         </button>
                     </div>
                     <div class="col-lg-6">
-                    <img class="img-fluid slideRightReturn" src="img/gsm2-slider-phone-image.jpg" alt="phone-image">
+                    <img class="img-fluid wow slideInRight" data-wow-duration="2s" data-wow-delay="1s" src="img/gsm2-slider-phone-image.jpg" alt="phone-image">
                     </div>
                 
             </div>
@@ -109,7 +111,7 @@
         <section class="space-lg">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-7 col-md-12  order-lg-2 order-md-1 d-flex flex-column ">
+                    <div class="col-lg-7 col-md-12  order-lg-2 order-md-1 d-flex flex-column animate__animated animate__lightSpeedInRight">
                         
                         <h1 class="md" style="font-size: 65px;" class="mb-4">
                             <span class="Primary-color">Lorem ipsum</span>
@@ -137,8 +139,8 @@
                             <button type="button" class="btn-about">About us</button>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-11 order-lg-1 order-md-2 tinRightIn">
-                        <img class="img-fluid slideLeftReturn" src="img/gsm2-home-image.png" alt="home-image">
+                    <div class="col-lg-5 col-md-11 order-lg-1 order-md-2">
+                        <img class="img-fluid wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s" src="img/gsm2-home-image.png" alt="home-image">
                     </div>
                     </div>
                 </div>
@@ -213,7 +215,7 @@
         <section class="mb-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 animate__animated animate__lightSpeedInLeft">
                         <h1 class="md mb-4" style="font-size: 65px;">
                             <span class="Primary-color">Quantum </span>
                             pore via 
@@ -229,7 +231,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <img class="img-fluid slideRightReturn" src="img/gsm2-home-round-img.png" alt="">
+                        <img class="img-fluid wow slideInRight" data-wow-duration="2s" data-wow-delay="1s" src="img/gsm2-home-round-img.png" alt="">
                     </div>
 
                 </div>
@@ -243,7 +245,7 @@
             <div class="container-fluid" style="height:auto;" >
                 <div class="row d-flex align-items-center ">
                     <div class="col-lg-4 col-md-6 col-sm-8">
-                        <img class="img-fluid slideLeftReturn" src="img/gsm2-cta-laptop.png" alt="">
+                        <img class="img-fluid wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s" src="img/gsm2-cta-laptop.png" alt="">
                     </div>
 
                     <div class="col-lg-4 col-md-5 col-sm-8 mt-4">
@@ -256,7 +258,7 @@
                              device really fast 
                         </h1>
                     </div>
-                    <div class="col-lg-4 col-md-8 col-sm-4 mt-4 mb-5">
+                    <div class="col-lg-4 col-md-8 col-sm-4 mt-4 mb-5 animate__animated animate__lightSpeedInRight">
                             <div class=" text-center">
                                 <span class="text-white h1 ">
                                     <a class="nav-link" href="#">+34 544 444 444</a>
@@ -365,7 +367,10 @@
 
 
 
-
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <script>
             feather.replace({ })
         </script>
@@ -374,6 +379,5 @@
         <script>
             AOS.init();
           </script>
-        <script src="js/wow.min.js"></script>
     </body>
 </html>

@@ -104,10 +104,12 @@ li > a{
 /**end-section**/
 
 
-
+/**
 .slideLeftReturn{
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 .slideRightReturn{
@@ -116,8 +118,20 @@ li > a{
     animation-duration: 2s;
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
-    
+   
 }
+
+**/
+
+.animate__lightSpeedInLeft, .animate__lightSpeedInRight{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+
+
+}
+
 
 
 .btn-about{
