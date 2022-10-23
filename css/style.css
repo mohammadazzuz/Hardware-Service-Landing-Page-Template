@@ -166,11 +166,29 @@ h6{
 }
 
 .img-thumbnail{
-    border-color: rgb(201, 201, 201);
+        border-color: rgb(201, 201, 201);
         border-radius: 20px;
         border-bottom: none;
         border-bottom-left-radius: 0%;
         border-bottom-right-radius: 0%;
+        overflow: hidden;
+       
+}
+
+
+.img-hover a img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+
+
+.img-hover a img:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 
