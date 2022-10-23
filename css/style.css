@@ -71,7 +71,7 @@ li > a{
 .bg-custom{
     background-image: url('/img/gsm2-slider-bg.png');
     background-repeat: no-repeat;
-    background-image: image();
+
 }
 
 .green-button{
@@ -104,6 +104,19 @@ li > a{
 /**end-section**/
 
 
+/**animate**/
+
+.animate__lightSpeedInLeft, .animate__lightSpeedInRight{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+
+
+}
+/**end_animate**/
+
+
 .btn-about{
     background-color:lightgrey;
     height: 42px;
@@ -120,13 +133,7 @@ li > a{
     opacity: 1;
     transform: translate(0px, 0px);
     visibility: visible;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #dadada;
-    border-top-color: rgb(229, 229, 229);
-    border-right-color: rgb(229, 229, 229);
-    border-bottom-color: rgb(229, 229, 229);
-    border-left-color: rgb(229, 229, 229);
+    border: 1px solid #dadada;
 }
 
 .btn-about:hover{
@@ -159,11 +166,29 @@ h6{
 }
 
 .img-thumbnail{
-    border-color: rgb(201, 201, 201);
+        border-color: rgb(201, 201, 201);
         border-radius: 20px;
         border-bottom: none;
         border-bottom-left-radius: 0%;
         border-bottom-right-radius: 0%;
+        overflow: hidden;
+       
+}
+
+
+.img-hover a img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+
+
+.img-hover a img:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 
@@ -244,26 +269,13 @@ li{
 }
 
 
-.gg-facebook{
-    color:#afafaf ;
-}
-
-.gg-twitter{
-    color:#afafaf ;
-}
-
-.gg-instagram{
+.gg-facebook, .gg-twitter, .gg-instagram{
     color:#afafaf ;
 }
 
 
-.gg-facebook:hover{
-    color:#2fd756;
-}
-.gg-twitter:hover{
-    color:#2fd756;
-}
-.gg-instagram:hover{
+
+.gg-facebook:hover, .gg-twitter:hover, .gg-instagram:hover{
     color:#2fd756;
 }
 
