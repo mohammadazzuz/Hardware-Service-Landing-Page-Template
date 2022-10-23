@@ -104,24 +104,7 @@ li > a{
 /**end-section**/
 
 
-/**
-.slideLeftReturn{
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-}
-
-.slideRightReturn{
-   
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-   
-}
-
-**/
+/**animate**/
 
 .animate__lightSpeedInLeft, .animate__lightSpeedInRight{
     -webkit-animation-duration: 2s;
@@ -131,7 +114,7 @@ li > a{
 
 
 }
-
+/**end_animate**/
 
 
 .btn-about{
@@ -150,13 +133,7 @@ li > a{
     opacity: 1;
     transform: translate(0px, 0px);
     visibility: visible;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #dadada;
-    border-top-color: rgb(229, 229, 229);
-    border-right-color: rgb(229, 229, 229);
-    border-bottom-color: rgb(229, 229, 229);
-    border-left-color: rgb(229, 229, 229);
+    border: 1px solid #dadada;
 }
 
 .btn-about:hover{
@@ -274,26 +251,13 @@ li{
 }
 
 
-.gg-facebook{
-    color:#afafaf ;
-}
-
-.gg-twitter{
-    color:#afafaf ;
-}
-
-.gg-instagram{
+.gg-facebook, .gg-twitter, .gg-instagram{
     color:#afafaf ;
 }
 
 
-.gg-facebook:hover{
-    color:#2fd756;
-}
-.gg-twitter:hover{
-    color:#2fd756;
-}
-.gg-instagram:hover{
+
+.gg-facebook:hover, .gg-twitter:hover, .gg-instagram:hover{
     color:#2fd756;
 }
 
